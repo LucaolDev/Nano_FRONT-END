@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
+        url(../images/pexels-tranmautritam-69432.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 7px;
+
+    h2 {
+        font-size: 45px;
+        margin: 50px 30px;
+        color: #fff;
+    }
+
+    p {
+        margin: 30px 30px 60px;
+        width: 40%;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    a {
+        margin: 30px;
+        text-decoration: none;
+        border: 2px solid #5293d3;
+        background-color: #5293d3;
+        color: #fff;
+        padding: 8px 30px;
+        border-radius: 7px;
+        font-weight: 600;
+        transition: .7s;
+    }
+    a:hover{
+        background-color: transparent;
+        color: #5293d3;
+    }
+}
